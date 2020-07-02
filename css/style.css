@@ -1,0 +1,131 @@
+body
+{
+    font-family: cursive;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+
+/* Global */
+
+ul
+{
+    margin: 0;
+    padding:  0;
+}
+
+
+/* Header */
+header
+{
+    background: rgb(34, 29, 29);
+    color: white;
+    padding-top: 30px;
+    min-height: 70px;
+    min-width: 1900px;
+    border-bottom: goldenrod 3px solid;
+    text-shadow: 0 0 20px goldenrod;
+}
+
+header a
+{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li
+{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #branding
+{
+    float: left;
+    padding-left: 250px;
+}
+
+header #branding h1
+{
+    margin: 0;
+}
+
+header nav
+{
+    float: right;
+    margin-top: 10px;
+    padding-right: 250px;
+}
+
+header .highlight, header .current a, #showcase .highlight
+{
+    color: rgb(255, 255, 159);
+    font-weight: bold;
+    text-shadow: 0 0 20px goldenrod;
+}
+
+header a:hover
+{
+    color: rgb(255, 214, 110);
+    font-weight: bold;
+}
+
+
+
+/* Showcase */
+#showcase
+{
+    background-image: url(../img/download.png);
+    min-height: 1080px;
+    min-width: 1900px;
+}
+
+#showcase .margin-less
+{
+    margin: 0;
+}
+
+#showcase .showcase-all
+{
+    border: 5px solid black;
+    padding-left: 0%;
+
+    padding-top: 250px;
+
+}
+
+#showcase .in-line
+{
+    text-align: left;
+    margin-left: 10%;
+}
+
+#showcase .my-name
+{
+    text-align: center;
+}
+
+
+#showcase .large-text
+{
+    font-size: 60px;
+}
+
+#showcase .medium-text
+{
+    text-align: left;
+    margin-left: 35%;
+    font-size: xx-large;
+}
+
+#showcase .a-tags
+{
+    border: 2px solid black;
+    padding-left: 1500px;
+
+}
